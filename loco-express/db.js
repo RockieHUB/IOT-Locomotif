@@ -1,7 +1,7 @@
 import Mongoose from "mongoose";
 
 const uri =
-  "mongodb+srv://RockieMongoDB:H3joZkSwDe7f7nuH@locoiot.8u1ljlk.mongodb.net/?appName=locoiot";
+  "STRINGMONGOURI";
 const clientOptions = { maxPoolSize: 10 };
 
 async function connectToDatabase() {
